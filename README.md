@@ -30,4 +30,3 @@ As you have learned that this project is built on 1000 IMDb rated movies, i have
 ![](https://bids.berkeley.edu/sites/default/files/styles/400x225/public/projects/numpy_logo_project_page_banner.png?itok=jaJeRlWs)
 ![](https://i.ytimg.com/vi/oD4IvH-Talo/hqdefault.jpg)
 ![](https://i2.wp.com/iot4beginners.com/wp-content/uploads/2020/04/65dc5834-de21-4e2e-bd4d-5e0c3c6994dd.jpg?fit=375%2C422&ssl=1)
-![](https://forthebadge.com/images/badges/made-with-python.svg)
