@@ -25,7 +25,23 @@ After installing Anaconda, you have to install two packages-
 `pip install keras`
 
 ## Project Detail
-As you have learned that this project is built on 1000 IMDb rated movies, i have used the csv file `imdb_1000.csv` as my input data which is located in my 'D:' drive. You can change the path of the input file as you like in the code. Here, the input file contains information like Title, Content_rating, Star_rating, Genre, Duration and Actors_list. I have only taken the necessary information in building the model. After my model is built, you can see that it recommended 5 movies based on a movie that i liked.
+### Workflow of the project:
+   * [Create a pattern and response in the Json file.]
+   * [Train the model using the json file.]
+   * [Create a GUI to interact with the chatbot ]
+   
+### Create a pattern and response in the Json file.
+First i have created a json file using Python IDLE. The file contains all the required patterns and responses along with tags to train our model. Since i am using limited pattern and response, we can also add pattern and response to this file which will increase the response to your queries.
+Here, the name of the json file is `info.json`. You can modify this file using Python IDLE according to your need.
+
+### Train the model using the json file.
+The first step of creating a chatbot is training the model by using some algorithms. Here we are dealing with the text data and our machine knows only 0's and 1's. For that we need to use the technique called Bag of words to convert the text to numbers. Before using Bag of words we have to preprocess our text data. NLP makes it possible for computers to read text, hear speech, interpret it, measure sentiment and determine which parts are important. 
+After creating Bag of words, I took the pattern value as the training input and their classes as the training output data. I used the Convolution Neural Network (CNN) with two hidden layers and 128 neurons in the first layer and 64 neurons in the second layer. Used the dropout operation to make it a sparse network instead of a deep network to avoid the problem of overfitting. Activation function Rectified Linear Unit (ReLU) is used for the neural network and the Softmax function for the output layer and Stochastic Gradient Descent (SGD) optimizer is used instead of gradient descent. I saved the model as `chatbot_model.h5`. You can directly use this model if you want.
+
+## Create a GUI to interact with the chatbot
+For user interaction i have created a simple user interface using "tkinter". To know more about tkinter click [here.](https://realpython.com/python-gui-tkinter/) 
+
+
 
 ## Technologies Used
 ![](https://keras.io/img/logo-k-keras-wb.png)
