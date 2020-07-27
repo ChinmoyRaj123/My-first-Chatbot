@@ -1,4 +1,4 @@
-![alt text](https://silvercloudinc.com/wp-content/uploads/2019/08/AI-Chatbot.jpeg)
+![alt text](https://image.shutterstock.com/image-vector/chatbot-concept-virtual-assistance-website-260nw-713628037.jpg)
 
 # IMDB-movie-recommendation
 
