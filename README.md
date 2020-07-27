@@ -1,6 +1,6 @@
-![alt text](https://image.shutterstock.com/image-vector/chatbot-concept-virtual-assistance-website-260nw-713628037.jpg)
+![alt text](https://www.callcentrehelper.com/images/stories/2018/03/chatbot-at-desk-messaging-760.png)
 
-# IMDB-movie-recommendation
+# AI CHATBOT
 
 ## Table of content
   * [Overview]
@@ -10,7 +10,7 @@
   * [Technologies used]
   
 ## Overview
-This a simple movie recommendation system trained by K Nearest Neighbors. This model is trained on 1000 movies rated by IMDb, which will use KNN algorithm to recommend five movies simillar to a movie that we like. The movies recommended will be within that 1000 movies but we can expand our choices by adding new data into that list of 1000 movies.
+Just like Google assistant, Apple's Siri, Microsoft's Cortona, Amazon's Alexa this chatbot also works like the same but with a limitation and that is it has limited pattern and response. If we add more pattern and response, it can response to all our queries.
 
 ## Motivation
 The idea of creating a movie recommendation struck me when i was watching a good IMDb rated movie. I liked that movie so much that i wanted to watch another movie of that same genre. But to search a movie having good rating and same genre in a huge list of IMDb movies was tiresome. Therefore it led me into building this model. 
@@ -25,6 +25,9 @@ As you have learned that this project is built on 1000 IMDb rated movies, i have
 
 ## Technologies Used
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
-![](https://i.redd.it/c6h7rok9c2v31.jpg)
-![](https://twilio-cms-prod.s3.amazonaws.com/original_images/jupyter_python_numpy.png)
-
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/775px-NumPy_logo.svg.png)
+![](https://www.innocreate.com/wp-content/uploads/2017/07/jsonlogo-300x300.png)
+![](https://i2.wp.com/clay-atlas.com/wp-content/uploads/2019/08/python_nltk.png?resize=592%2C644&ssl=1)
+![](https://i.ytimg.com/vi/oD4IvH-Talo/hqdefault.jpg)
+![](https://i2.wp.com/iot4beginners.com/wp-content/uploads/2020/04/65dc5834-de21-4e2e-bd4d-5e0c3c6994dd.jpg?fit=375%2C422&ssl=1)
+![](https://keras.io/img/logo-k-keras-wb.png)
