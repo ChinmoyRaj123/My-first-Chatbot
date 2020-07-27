@@ -24,10 +24,10 @@ After installing Anaconda, Run the Jupyter Notebook where you can use the code (
 As you have learned that this project is built on 1000 IMDb rated movies, i have used the csv file `imdb_1000.csv` as my input data which is located in my 'D:' drive. You can change the path of the input file as you like in the code. Here, the input file contains information like Title, Content_rating, Star_rating, Genre, Duration and Actors_list. I have only taken the necessary information in building the model. After my model is built, you can see that it recommended 5 movies based on a movie that i liked.
 
 ## Technologies Used
-![](https://forthebadge.com/images/badges/made-with-python.svg)
 ![](https://keras.io/img/logo-k-keras-wb.png)
 ![](https://miro.medium.com/max/1000/0*iL0ELUnHdGtN8bkP.png)
 ![](https://www.innocreate.com/wp-content/uploads/2017/07/jsonlogo-300x300.png)
 ![](https://bids.berkeley.edu/sites/default/files/styles/400x225/public/projects/numpy_logo_project_page_banner.png?itok=jaJeRlWs)
 ![](https://i.ytimg.com/vi/oD4IvH-Talo/hqdefault.jpg)
 ![](https://i2.wp.com/iot4beginners.com/wp-content/uploads/2020/04/65dc5834-de21-4e2e-bd4d-5e0c3c6994dd.jpg?fit=375%2C422&ssl=1)
+![](https://forthebadge.com/images/badges/made-with-python.svg)
