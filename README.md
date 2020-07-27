@@ -18,7 +18,10 @@ The idea of creating a movie recommendation struck me when i was watching a good
 ## Installation
 The code is written in Python 3.7 in Jupyter Notebook. If you dont have it you can first download Anaconda platform [here](https://docs.anaconda.com/anaconda/install/), where You will find the Jupyter Notebook within it. Jupyter Notebooks are powerful, versatile, shareable and provide the ability to perform data visualization in the same environment.It also allows data scientists to create and share their documents, from codes to full blown reports. They help data scientists streamline their work and enable more productivity and easy collaboration. Due to these and several other reasons you will see below, Jupyter Notebooks are one of the most popular tools among data scientists.
 
-After installing Anaconda, Run the Jupyter Notebook where you can use the code (`IMDB movie recommendation.ipynb`).
+After installing Anaconda, you have to install "json" package in anaconda to access the json file. You can install the package by simply running the code given below in anaconda prompt.
+`pip install jsonlib`
+
+Run the Jupyter Notebook where you can use the code (`IMDB movie recommendation.ipynb`).
 
 ## Project Detail
 As you have learned that this project is built on 1000 IMDb rated movies, i have used the csv file `imdb_1000.csv` as my input data which is located in my 'D:' drive. You can change the path of the input file as you like in the code. Here, the input file contains information like Title, Content_rating, Star_rating, Genre, Duration and Actors_list. I have only taken the necessary information in building the model. After my model is built, you can see that it recommended 5 movies based on a movie that i liked.
