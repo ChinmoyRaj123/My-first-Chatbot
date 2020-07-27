@@ -31,7 +31,7 @@ After installing Anaconda, you have to install two packages-
    * [Create a GUI to interact with the chatbot ]
    
 ### Create a pattern and response in the Json file.
-First i have created a json file using Python IDLE. The file contains all the required patterns and responses along with tags to train our model. Since i am using limited pattern and response, we can also add pattern and response to this file which will increase the response to your queries.
+First i have created a json file using Python IDLE. The file contains all the required patterns and responses along with tags to train our model. Since i am using limited pattern and response, we can also add pattern and response to this file which will increase the response to our queries.
 Here, the name of the json file is `info.json`. You can modify this file using Python IDLE according to your need.
 
 ### Train the model using the json file.
