@@ -13,13 +13,16 @@
 Just like Google assistant, Apple's Siri, Microsoft's Cortona, Amazon's Alexa this chatbot also works like the same but with a limitation and that is it has limited pattern and response. If we add more pattern and response, it can response to all our queries.
 
 ## Motivation
-The idea of creating a movie recommendation struck me when i was watching a good IMDb rated movie. I liked that movie so much that i wanted to watch another movie of that same genre. But to search a movie having good rating and same genre in a huge list of IMDb movies was tiresome. Therefore it led me into building this model. 
+Getting instant reply in chatbox of some organization, made me always think whether there is a person active all the time or is there some technology behind this. Then i came to know about the term "Chatbot" and after that i became interested in knowing how a chatbot works, what is the mechanism behind the idea. Now, after having knowledge on Python, Machine learning and Deep Learning, i finally understood the basic concept, and therefore, thought of creating my own simple chatbot.  
 
 ## Installation
 The code is written in Python 3.7 in Jupyter Notebook. If you dont have it you can first download Anaconda platform [here](https://docs.anaconda.com/anaconda/install/), where You will find the Jupyter Notebook within it. Jupyter Notebooks are powerful, versatile, shareable and provide the ability to perform data visualization in the same environment.It also allows data scientists to create and share their documents, from codes to full blown reports. They help data scientists streamline their work and enable more productivity and easy collaboration. Due to these and several other reasons you will see below, Jupyter Notebooks are one of the most popular tools among data scientists.
 
-After installing Anaconda, you have to install "json" package in anaconda to access the json file. You can install the package by simply running the code given below in anaconda prompt.
+After installing Anaconda, you have to install two packages- 
+1. "json" package, to access the json file. You can install the package by simply running the following code in anaconda prompt.
 `pip install jsonlib`
+2. "keras" library to build the model. For that you have to run the following code in anaconda prompt.
+`pip install keras`
 
 Run the Jupyter Notebook where you can use the code (`IMDB movie recommendation.ipynb`).
 
