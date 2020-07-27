@@ -24,8 +24,6 @@ After installing Anaconda, you have to install two packages-
 2. "keras" library to build the model. For that you have to run the following code in anaconda prompt.
 `pip install keras`
 
-Run the Jupyter Notebook where you can use the code (`IMDB movie recommendation.ipynb`).
-
 ## Project Detail
 As you have learned that this project is built on 1000 IMDb rated movies, i have used the csv file `imdb_1000.csv` as my input data which is located in my 'D:' drive. You can change the path of the input file as you like in the code. Here, the input file contains information like Title, Content_rating, Star_rating, Genre, Duration and Actors_list. I have only taken the necessary information in building the model. After my model is built, you can see that it recommended 5 movies based on a movie that i liked.
 
